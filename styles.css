@@ -1,0 +1,35 @@
+(@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');)
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+    max-width: 800px;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block; usei para que a âncora ocupe todo espaço
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233)
+}
